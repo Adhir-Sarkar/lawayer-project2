@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.banner{
+    background-image: url(../images/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.banner h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.banner{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0px);
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 85%;
+    }
+}
+
+.who_we_are{
+padding: 80px;
+}
+.who_we_are p{
+
+color: #b0b0b1;
+font-size: 18px;
+text-align: justify;
+}
+.heading span{
+display: inline-block;
+width: 0px;
+height: 5px;
+background: #f2622c;
+transition: .5s all ease-in-out;
+}
+
+.heading h1{
+font-size: 40px;
+color: #1f4f87;
+}
+.who_we_are :hover .heading span{
+width: 90px;
+}  
+.what_we_do{
+    background: #f7f8f8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/wwd.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 1150px;
+    }
+
+.heading_two{
+
+}
+.heading_two span{
+display: inline-block;
+width: 0px;
+height: 5px;
+background: #f2622c;
+transition: .5s all ease-in-out;
+}
+.what_we_do :hover .heading_two span{
+    width: 5%;
+}
+.heading_two h1{
+    color: #2b2f85;
+    
+
+}
+.image{
+    position: relative;
+}
+.image::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2b2f85+0,2b2f85+100&0.29+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(43,47,133,0.29) 0%, rgba(43,47,133,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(43,47,133,0.29) 0%,rgba(43,47,133,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(43,47,133,0.29) 0%,rgba(43,47,133,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a2b2f85', endColorstr='#2b2f85',GradientType=0 ); /* IE6-9 */
+transition: .4s all ease-in-out; 
+}
+.image:hover::before{
+    height: 100%;
+}
+
+.image_title{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+
+color: #fff;
+
+text-transform: uppercase;
+
+transform: translate(-50%, 0);
+
+opacity: 0;
+
+transition: .4s all ease-in-out;
+
+font-size: 50px;
+}
+.image:hover .image_title{
+    opacity: 1;
+    top: 40%;
+}
+.image_title h1{
+font-size: 45px;
+text-align: center;
+}
+.arrow_icon{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    color: #fff;
+    transform: translate(-50%);
+    font-size: 35px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+
+.image:hover .arrow_icon{
+    opacity: 5;
+    left: 50%;
+
+}
+.our-ataorneys{
+    background-image:url(../images/oabg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.heading_three span{
+    display: inline-block;
+    width: 0px;
+    height: 5px;
+    background: #f2622c;
+    transition: .5s all ease-in-out;
+    }
+    .our-ataorneys :hover .heading_three span{
+        width: 90px;
+    }
+    .heading_three h1{
+        color: white;
+        font-size: 60px;
+    }
+    .heading_three p{
+        color: #929dcf;
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .heading_three a{
+        color: #f2622c;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .four_image{
+        align-items: flex-end;
+    }
+.four_image img{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.heading_four span{
+display: inline-block;
+width: 0px;
+height: 5px;
+background: #f2622c;
+transition: .5s all ease-in-out;
+}
+.language :hover .heading_four span{
+    width: 5%;
+}
+.heading_four h1{
+    color: #28377e;
+    font-size: 50px;
+    font-weight: 700;
+}
+.language h2{
+
+color: #28377e;
+
+text-transform: uppercase;
+
+padding: 25px 0;
+
+font-weight: 700;
+}
+.language p{
+
+color: #b1b0b1;
+
+line-height: 30px;
+}
+.language a{
+
+text-transform: uppercase;
+
+font-weight: 700;
+
+color: #f2622c;
+
+padding: 25px 0;
+}
+.contact-us{
+    background-color: #28377e;
+
+}
+
+.heading_five span{
+    display: inline-block;
+    width: 0px;
+    height: 5px;
+    background: #f2622c;
+    transition: .5s all ease-in-out;
+    }
+    .contact-us :hover .heading_five span{
+        width: 5%;
+    }
+    .heading_five h1{
+        color: #fff;
+        font-size: 65px;
+    
+    }
+    .contact-us{
+
+    }
+    .contact-us form{
+        
+text-align: center;
+    }
+    .contact-us form input{
+        
+    width: 100%;
+            
+    background: transparent;
+            
+    border: none;
+            
+    border-bottom: 1px solid #bcabab;
+            
+    margin-bottom: 25px;
+    caret-color: #fff;
+    
+}
+
+.contact-us form input:focus-visible{
+    outline: none;
+}
+.contact-us form input[type="submit"]{
+    
+border: none;
+    
+background-color: #f3622c;
+    
+width: 180px;
+    
+margin-top: 25px;
+    
+height: 45px;
+    
+color: #fff;
+    
+text-transform: uppercase;
+}
+
+.contact-us form input::placeholder{
+    color: #fff;
+}
+.contact-us form textarea{
+        
+    width: 100%;
+              
+    background: transparent;
+            
+    border: none;
+            
+    border-bottom: 1px solid #bcabab;
+    caret-color: white;      
+  
+}
+
+.contact-us form textarea:focus-visible{
+    outline: none;
+}
+
+.contact-us form textarea::placeholder{
+    color: #fff;
+}
+.footer{
+    background: #0c1234;
+    height: 100px;
+    padding-top: 40px;
+}
+.footer p{
+    color: #616ca8;
+}
+.footer i{
+    margin-left: 10px;
+    color: #616ca8;
+}
+.image-attouneys{
+    position: relative;
+
+}
+.image-attouneys h1{
+    position: absolute;
+    color: #fff;
+
+}
+
+
+
+
+
+
